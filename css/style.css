@@ -31,9 +31,6 @@ img {
 }
 
 /* Header section style */
-.header {
-    display: inline-flex;
-}
 .studio {
     color: var(--blue);
  }
@@ -45,11 +42,32 @@ img {
 
 .header__logo__web {
     color: var(--blue);
+    padding-left: 70px;
 }
 
 .list-flex {
     display: flex;
-    margin-right: 15px;
+    list-style: none;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    align-items: center;
+    height: 80px;
+}
+
+.list-flex>li {
+    margin-right: 20px;
+    margin-left: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.list-flex>li:nth-child(4) {
+    margin-left: 300px;
+}
+
+.list__info {
+    color: var(--gray);
 }
 
 a {
@@ -70,8 +88,8 @@ a:hover{
     letter-spacing: 2px;
     color: var(--white);
     text-shadow: 2px 2px 2px var(--black);
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 182px;
+    padding-bottom: 280px;
 }
 
 .button {
@@ -84,8 +102,7 @@ a:hover{
     padding-bottom: 20px;
     letter-spacing: 2px;
     padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    margin-top: 30px;
     cursor: pointer;
   }
 
@@ -98,11 +115,11 @@ a:hover{
     display: flex;
     margin-top: 94px;
     margin-bottom: 94px;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .hero__section__container:not(:first-child) {
-    margin-left: 30px;
+    margin-left:
 }
   
 .hero__section__title {
@@ -129,38 +146,34 @@ a:hover{
 /* What we do section */
 .what__we__do__images {
     display: flex;
-    justify-content: space-between;
+    flex: 1;
+    gap: 30px;
+    width: 1170px;
 }
 .what__we__do__title {
     font-size: 36px;
     text-align: center;
     text-shadow: 2px 2px 2px var(--shadow);
-    margin-top: 94px;
+
 }
 
 .what__we__do__images>img{
     display: flex;
-    justify-content: space-between;
     margin-top: 50px;
-    margin-bottom: 94px;
-    max-width: 100%;
-    height: auto;
 }
 
 /* Our team section */
 
 .our__team {
     background-color: var(--lightgray);
+    width: 100%;
 }
 
 .our__team__members {
     display: flex;
-    padding-left: 215px;
-    padding-right: 215px;
+    flex: 1;
     gap: 30px;
-    padding-bottom: 94px;
-    background-color: var(--lightgray);
-    justify-content: space-between;
+    justify-content: center
 }
 .our__team__title {
     font-size: 36px;
@@ -171,7 +184,6 @@ a:hover{
 }
 
 .containers {
-    width: 270px;
     border-radius: 5px;
     background-color: var(--white);
     box-shadow: 1px 2px 1px var(--shadow);
@@ -200,7 +212,6 @@ a:hover{
 .footer {
     background-color: var(--darkgray);
     padding-top: 50px;
-    padding-left: 100px;
     padding-bottom: 50px;
 }
 .footer__container {
@@ -264,7 +275,6 @@ a:hover{
 .cards {
     margin-bottom: 70px;
     margin-left: 120px;
-    margin-right: 80px;
     line-height: 2;
 
 }
@@ -287,6 +297,11 @@ a:hover{
 
 .container {
     width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
   }

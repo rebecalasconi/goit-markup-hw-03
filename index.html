@@ -15,7 +15,7 @@
 </head>
 <body class="body">
     <!--Header section-->
-    <header class="header">
+    <header class="">
       <div class="container">
         <div class="list-flex">
         <nav class="navigation">
@@ -35,10 +35,10 @@
                     <a href="#Contacts">Contacts</a>
                 </li>
                 <li>
-                    <a href="mailto:info@devstudio.com" class="list__address">@devstudio.com</a>
+                    <a href="mailto:info@devstudio.com" class="list__info">@devstudio.com</a>
                 </li>
                 <li>
-                <a href="tel:+12127724150" class="list__tel">+1 212-772-4150</a>
+                <a href="tel:+12127724150" class="list__info">+1 212-772-4150</a>
                 </li>
             </ul>
         </div>
@@ -47,15 +47,15 @@
     </header>
 
     <!--Portiunea principala a paginii-->
-    <main id="Studio">
-        <div class="container">
-        <section class="title" class="container">
+    <main id="Studio" class="section">
+        <section class="title">
             <h1>EFFECTIVE SOLUTIONS FOR <br /> YOUR BUSINESS</h1>
             <button type="button" class="button"><b>Request our service</b></button>
         </section>
-    
+     
         <!--Hero section-->
-        <section>
+        <section class="section">
+        <div class="container">
             <div class="hero__section">
             <!--Container 1-->
             <div class="hero__section__container">
@@ -78,55 +78,58 @@
                 <p class="hero__section__text">We use innovative tools to solve<br /> assigned tasks. It's time to simplify work processes.</p>
             </div>
             </div>
+            </div>
         </div>
         </section>
     
         <!--What we do section-->
-        <section>
-            <div class="what-we-do">
+        <section class="section">
+            <div class="container">
             <h2 class="what__we__do__title"><b>What we do</b></h2>
                 <div class="what__we__do__images">
-                     <img src="./images/img-1.jpg" alt="keyboard-typing-image" width="294"/>
-                     <img src="./images/img-2.jpg" alt="woman-working-from-her-phone-image" width="294"/>
-                     <img src="./images/img-3.jpg" alt="choosing-colors-from-a-collor-pallete-image" width="294"/>
+                     <img src="./images/img-1.jpg" alt="keyboard-typing-image" width="370"/>
+                     <img src="./images/img-2.jpg" alt="woman-working-from-her-phone-image" width="370"/>
+                     <img src="./images/img-3.jpg" alt="choosing-colors-from-a-collor-pallete-image" width="370"/>
                 </div>
             </div>
         </section>
     
         <!--Our team section-->
-        <section class="our__team">
+        <section class="section">
         <div class="container">
+          <div class="our__team">
             <h2 class="our__team__title"><b>Our team</b></h2>    
                 <!--Container cu carduri despre membrii echipei-->
                 <div class="our__team__members">
     
                     <!--Container 1-->
                     <div class="containers">
-                        <img src="./images/christopher-walker.jpg" alt="Christopher Walker imagine" width="220"/>
+                        <img src="./images/christopher-walker.jpg" alt="Christopher Walker imagine" width="270"/>
                         <p class="container__title">Christopher Walker</p>
                         <p class="container__subtitle">Product Designer</p>
                     </div>
         
                     <!--Container 2-->
                     <div class="containers">
-                        <img src="./images/kylie-evans.jpg" alt="Kylie Evans imagine" width="220"/>
+                        <img src="./images/kylie-evans.jpg" alt="Kylie Evans imagine" width="270"/>
                         <p class="container__title">Kylie Evans</p>
                         <p class="container__subtitle">Frontend Developer</p>
                     </div>
         
                     <!--Container 3-->
                     <div class="containers">
-                        <img src="./images/ryan-harris.jpg" alt="Ryan Harris imagine" width="220"/>
+                        <img src="./images/ryan-harris.jpg" alt="Ryan Harris imagine" width="270"/>
                         <p class="container__title">Ryan Harris</p>
                         <p class="container__subtitle">Marketing</p>
                     </div>
     
                         <!--Container 4-->
                     <div class="containers">
-                        <img src="./images/tyler-moore.jpg" alt="Tyler Moore imagine" width="220"/>
+                        <img src="./images/tyler-moore.jpg" alt="Tyler Moore imagine" width="270"/>
                         <p class="container__title">Tyler Moore</p>
                         <p class="container__subtitle">UI Designer</p>
                     </div>
+                </div>
                 </div>
             </div>
         </section>
@@ -134,7 +137,8 @@
         </main>
     
         <!--Footer section-->
-        <footer class="footer">
+        <footer class="footer" class="section">
+            <div class="container">
             <div class="footer__container"><a id="footer__logo" href="#"><p><b><span class="footer__logo__web">Web</span>Studio</b></p></a></div>
             <div id="Contacts">
                 <address class="footer__address">
@@ -143,6 +147,7 @@
                     <a href="tel:+12127724150">+1 212-772-4150</a>
                 </address>
             </div>
+        </div>
         </footer>
     </body>
     </html>
