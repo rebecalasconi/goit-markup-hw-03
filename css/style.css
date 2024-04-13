@@ -161,8 +161,9 @@ a:hover{
     background-color: var(--lightgray);
     margin-left: -32px;
     margin-right: -32px;
-    padding-bottom: 186px;
+    padding-bottom: 86px;
     padding-top: 92px;
+    margin-bottom: -94px;
 }
 
 .our__team__members {
@@ -182,7 +183,6 @@ a:hover{
     border-radius: 5px;
     background-color: var(--white);
     box-shadow: 1px 2px 1px var(--shadow);
-    margin-bottom: -194px;
 }
 
 .container__title {
