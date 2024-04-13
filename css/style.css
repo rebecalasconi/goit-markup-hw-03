@@ -6,6 +6,7 @@
     --shadow: #00000024;
     --lightgray: #F5F4FA;
     --white: #ffffff;
+    --border-color: #ECECEC;
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
 }
@@ -42,7 +43,7 @@ img {
 
 .header__logo__web {
     color: var(--blue);
-    padding-left: 70px;
+    padding-left: 50px;
 }
 
 .list-flex {
@@ -53,16 +54,17 @@ img {
     height: 80px;
     align-items: center;
     letter-spacing: 0.02em;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .list-flex>li {
     margin-right: 20px;
-    margin-left: 28px;
+    margin-left: 48px;
     display: flex;
 }
 
 .list-flex>li:nth-child(4) {
-    margin-left: 300px;
+    margin-left: 200px;
 }
 
 .list__info {
@@ -83,6 +85,7 @@ a:hover{
     font-size: 44px;
     text-align: center;
     background-color: var(--darkgray);
+    max-width: 100%;
     line-height: 1.5;
     letter-spacing: 2px;
     color: var(--white);
@@ -142,13 +145,13 @@ a:hover{
     gap: 30px;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: -94px;
 }
 .what__we__do__title {
     font-size: 36px;
     text-align: center;
     text-shadow: 2px 2px 2px var(--shadow);
     margin-top: -94px;
-
 }
 
 
@@ -156,8 +159,10 @@ a:hover{
 
 .our__team {
     background-color: var(--lightgray);
-    padding-bottom: 86px;
-    padding-top: 100px;
+    margin-left: -32px;
+    margin-right: -32px;
+    padding-bottom: 186px;
+    padding-top: 92px;
 }
 
 .our__team__members {
@@ -177,6 +182,7 @@ a:hover{
     border-radius: 5px;
     background-color: var(--white);
     box-shadow: 1px 2px 1px var(--shadow);
+    margin-bottom: -94px;
 }
 
 .container__title {
@@ -201,9 +207,10 @@ a:hover{
     /* Footer section */
 .footer {
     background-color: var(--darkgray);
-    margin-top: -94px;
+    margin-top: -194px;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 100px;
 }
 .footer__container {
     padding-bottom: 28px;
@@ -236,7 +243,6 @@ a:hover{
 /* Portiunea principala a paginii */
 .selection {
     text-align: center;
-    margin-top: 60px;
     border: var(--blue);
 }
 
@@ -263,28 +269,36 @@ a:hover{
   }
 
   /*Container cu carduri despre proiectele realizate*/
-.cards {
-    margin-bottom: 70px;
-    margin-left: 120px;
-    line-height: 2;
 
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
 }
+
 .container__portofolio {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
     border-radius: 5px;
     background-color: var(--white);
     box-shadow: 1px 2px 1px var(--lightgray);  
     }
 
+.container__portofolio>img {
+    margin-bottom: 20px;
+}
 .card__title {
     font-size: 18px;
+    padding-bottom: 24px;
 }
 
 .cards__subtitle {
     font-size: 16px;
     color: var(--gray);
+    padding-bottom: 20px;
 }
-
-/*Stilizare tema 3*/
 
 .container {
     width: 1200px;
@@ -295,4 +309,8 @@ a:hover{
   .section {
     padding-top: 94px;
     padding-bottom: 94px;
+  }
+
+  a[href*="https://www.mapquest.com/us/ny/new-york/10065-5024/695-park-ave-40.76874,-73.96518"] {
+    color: var(--white);
   }
