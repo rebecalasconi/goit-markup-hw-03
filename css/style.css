@@ -182,7 +182,7 @@ a:hover{
     border-radius: 5px;
     background-color: var(--white);
     box-shadow: 1px 2px 1px var(--shadow);
-    margin-bottom: -94px;
+    margin-bottom: -194px;
 }
 
 .container__title {
@@ -207,7 +207,7 @@ a:hover{
     /* Footer section */
 .footer {
     background-color: var(--darkgray);
-    margin-top: -194px;
+    margin-top: -94px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 100px;
@@ -275,6 +275,7 @@ a:hover{
     justify-content: center;
     gap: 30px;
     margin-bottom: 30px;
+    flex-wrap: wrap;
 }
 
 .container__portofolio {
@@ -284,7 +285,7 @@ a:hover{
     border-radius: 5px;
     background-color: var(--white);
     box-shadow: 1px 2px 1px var(--lightgray);  
-    }
+}
 
 .container__portofolio>img {
     margin-bottom: 20px;
@@ -306,7 +307,7 @@ a:hover{
     margin: 0 auto;
   }
 
-  .section {
+.section {
     padding-top: 94px;
     padding-bottom: 94px;
   }
